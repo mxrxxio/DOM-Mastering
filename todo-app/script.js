@@ -90,8 +90,9 @@ function removeLocalStorage(todo) {
     } else {
         todos = JSON.parse(localStorage.getItem('todos'));
     }
-    const indexTodo = "";
-    console.log(todos.item);
+    const indexTodo = todo.children[0].innerText;
+    todos.splice(todos.indexOf(indexTodo), 1);
+    localStorage.setItem("todos", JSON.stringify(todos));
 }
 
 function getTodos() {
