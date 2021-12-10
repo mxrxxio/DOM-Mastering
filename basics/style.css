@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    /* font-family: "SF Pro Text"; */
+    padding: 0;
+    margin: 0;
+}
+
+#nav-elements {
+    background-color: black;
+    color: wheat;
+    padding: 0.3rem;
+    font-size: 16px;
+}
+
+.father {
+    background-color: tomato;
+    height: 350px;
+    width: 500px;
+    display:flex;
+    border: 1px solid black ;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.child {
+    background-color: crimson;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black ;
+    justify-content: space-around;
+}
+
+.grand-child {
+    background-color: darkcyan;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    border: 1px solid black;
+    justify-content: center;
+}
